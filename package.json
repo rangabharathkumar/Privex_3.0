@@ -17,12 +17,11 @@
     "react-router-dom": "^6.30.0",
     "tailwind-merge": "^3.0.2"
   },
-  {
+  
   "homepage": "https://rangabharathkumar.github.io/Privex_3.0",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
-}
 }
   
 }
