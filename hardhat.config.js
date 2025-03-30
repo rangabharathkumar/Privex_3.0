@@ -1,14 +1,16 @@
 require("@nomicfoundation/hardhat-toolbox");
+require("dotenv").config();
 
-/** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
   solidity: "0.8.19",
-  networks:{
-    hardhat:{
-      chainId:31337,
-    },
+  networks: {
+    holesky: {                            // Define Holesky network
+      url: process.env.ALCHEMY_API_URL,   // Use Alchemy RPC URL
+      chainId: 17000,                     // Holesky Chain ID
+      accounts: [process.env.PRIVATE_KEY] // Your Metamask private key
+    }
   },
-  paths:{
-    artifacts:"./client/src/artifacts"
+  paths: {
+    artifacts: "./client/src/artifacts"
   }
 };

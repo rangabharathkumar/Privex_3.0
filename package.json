@@ -13,6 +13,7 @@
     "clsx": "^2.1.1",
     "create-react-app": "^5.0.1",
     "crypto-js": "^4.2.0",
+    "dotenv": "^16.4.7",
     "lucide-react": "^0.484.0",
     "react-router-dom": "^6.30.0",
     "tailwind-merge": "^3.0.2"
