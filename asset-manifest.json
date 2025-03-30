@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Privex_3.0/static/css/main.c517f43d.css",
+    "main.js": "/Privex_3.0/static/js/main.31a95ad7.js",
+    "static/js/453.258b012d.chunk.js": "/Privex_3.0/static/js/453.258b012d.chunk.js",
+    "index.html": "/Privex_3.0/index.html",
+    "main.c517f43d.css.map": "/Privex_3.0/static/css/main.c517f43d.css.map",
+    "main.31a95ad7.js.map": "/Privex_3.0/static/js/main.31a95ad7.js.map",
+    "453.258b012d.chunk.js.map": "/Privex_3.0/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c517f43d.css",
+    "static/js/main.31a95ad7.js"
+  ]
+}
